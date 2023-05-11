@@ -1,3 +1,5 @@
-import libadd as add
+import libadd
 
-print("add result result is",add.add(1,3))
+c = libadd.CT(1,3)
+m =c.add()
+print("add result result is",m)
