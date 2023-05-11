@@ -1,0 +1,4 @@
+# ninja log v5
+3	3137	1683774526763661087	CMakeFiles/Pybind.dir/_lib.cpp.o	480d67e49d999a25
+0	49	1683777356503247960	build.ninja	977065ae41b967c9
+2	3184	1683770646109340060	CMakeFiles/Pybind.dir/pybind11_wrapper.cpp.o	5567333fbf389966
