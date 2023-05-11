@@ -1,3 +1,0 @@
-/home/xuejun/C++Projects/Features/Pybind/cmake-build-debug/CMakeFiles/Pybind.dir
-/home/xuejun/C++Projects/Features/Pybind/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xuejun/C++Projects/Features/Pybind/cmake-build-debug/CMakeFiles/rebuild_cache.dir

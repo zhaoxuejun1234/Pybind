@@ -27,10 +27,10 @@ int add_1(int a, int b)
 //    m.def("add", &add_1, "add two number",py::arg("a")=1,py::arg("b")=2);
 //}
 //类及函数封装为动态库
-PYBIND11_MODULE(libadd, m){
-    py::class_<Base>(m,"CT")
+PYBIND11_MODULE(libadd_, m){
+    py::class_<Base>(m,"CT")    //"CT"为实例化的对象
         .def(pybind11::init<int ,int >())
-        .def("add",&Base::add);
+        .def("add",&Base::add);  //(目标函数名，引用的实际函数)
 }
 
 //
