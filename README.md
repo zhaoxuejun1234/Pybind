@@ -1,8 +1,8 @@
 ##  Usage
 ### 1.Why python is slow
-(1)Python has dynamic feature
-(2)Garbage Collection needs extra resource to realize
-(3)GIL makes multi-threads unuseful for python
+(1)Python has dynamic feature  
+(2)Garbage Collection needs extra resource to realize  
+(3)GIL makes multi-threads unuseful for python  
 ### 2.Brief Intro
 Combination of C++ and Python will provide a powerful tool for coders. You can develop your code efficiently without lose of program running efficiency. See more details of pybind11, please find links [here](https://github.com/pybind/pybind11).  
 ### 3. Compile method 1  
