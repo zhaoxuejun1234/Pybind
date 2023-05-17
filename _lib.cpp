@@ -36,14 +36,7 @@ int add_1(int a, int b)
     return a+b;
 }
 enum class Type:char {Sheep,Bat, Lion};
-//PYBIND11_MODULE(enum_,m){
-//    m.doc() = "enum example";
-//    py::enum_<Type>(m,"Type")
-//        .value("Sheep",Type::Sheep)
-//        .value("Lion",Type::Lion)
-//        .value("Bat",Type::Bat)
-//        .export_values();
-//}
+
 //普通函数封装为动态库
 //PYBIND11_MODULE(libadd, m){
 //    m.doc() = "pybind11 example";
