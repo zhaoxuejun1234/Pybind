@@ -29,7 +29,7 @@ int add_1(int a, int b)
 //类及函数封装为动态库
 PYBIND11_MODULE(libadd_, m){     //(模块名，实例化对象)
     py::class_<Base>(m,"CT")    //"CT"为实例化的对象
-        .def(pybind11::init<int ,int >())
+        .def(py::init<int ,int >())
         .def("add",&Base::add);  //(目标函数名，引用的实际函数)
 }
 
