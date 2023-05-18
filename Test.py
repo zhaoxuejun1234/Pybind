@@ -10,6 +10,8 @@ print(enum(0).name,enum(1).value)
 m = np.arange(10).reshape(10,1)
 #初始化对象
 obj = libadd_.CT(1,3,m)
+copy = obj.show()
+print("copy value is {}".format(copy))
 sum =obj.add()          #调用普通成员函数
 obj.print()             #调用访问STL vector的函数
 obj.a=300               #可变值重新v值

@@ -20,6 +20,11 @@ public:
             cout<<endl;
         }
     }
+    vector<int> show()
+    {
+        auto vec = v;
+        return v;
+    }
 
     int c = 10;
     int d = 20;
@@ -48,6 +53,7 @@ PYBIND11_MODULE(libadd_, m) {     //(模块名，实例化对象)
             .def(py::init<int, int,vector<int>>())
             .def("add", &Base::add)  //(目标函数名，引用的实际函数)
             .def("print",&Base::print)
+            .def("show",&Base::show)
             .def_readwrite("a",&Base::c)
             .def_readonly("d",&Base::d);
     py::enum_<Type>(m,"Type")
